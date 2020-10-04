@@ -38,8 +38,7 @@ class Loja:
 
     if not self.inscricao_estadual:
         raise Exception("O campo inscrição estadual da loja é obrigatório")
-
-
+      
 
   def dados_loja(self):
 
